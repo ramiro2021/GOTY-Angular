@@ -11,20 +11,24 @@ export class GraficoBarraHorizontalComponent {
   results: any[] = [
     {
       'name': 'JUEGO 1',
-      "value": 20
+      'value': 50
     },
     {
-      "name": "JUEGO 2",
-      "value": 25
+      'name': 'JUEGO 2',
+      'value': 25
     },
     {
-      "name": "JUEGO 3",
-      "value": 15
+      'name': 'JUEGO 3',
+      'value': 15
+    },
+    {
+      'name': 'JUEGO 4',
+      'value': 35
     }
   ];
 
 
-  view: any[] = [700, 400];
+  // view: any[] = [700, 400];
 
   // options
   showXAxis = true;
